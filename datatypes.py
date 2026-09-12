@@ -99,6 +99,7 @@ print(max(numbers))
 print(min(numbers))
 print(sum(numbers))
 
+
 #sets in a python
 #set is a collection of unique values that is unorderd and mutable
 numbers = {10,20,30,20,10}
@@ -122,3 +123,20 @@ print(subjects)
 #Sets do not allow duplicate values
 numbers = {1,2,2,3,3,4}
 print(numbers)
+
+#slice method in a list 
+#start,stop,step
+numbers = [10,20,30,40,50]
+print(numbers[1:4])
+print(numbers[:3])
+print(numbers[2:])
+print(numbers[::-1])
+
+#slice method
+#start,stop,step
+numbers = [10,20,30,40,50,60,70,80]
+print(numbers[1:7:2])
+print(numbers[6:1:-2])
+
+#dictionaries in python
+#Dictionary is a collection 
