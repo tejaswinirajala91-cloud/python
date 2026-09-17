@@ -73,7 +73,7 @@ print(numbers[::-1])
 
 
 #tuples in python
-#Tuple is a collection of multiple values that is ordered and cannot be changed after creation and it is not mutable
+#Tuple is a collection of multiple values that is ordered and cannot be changed after creation and it is un mutable
 student = ("Bhargavi",98,"Python")
 print(student[0])
 
@@ -139,4 +139,92 @@ print(numbers[1:7:2])
 print(numbers[6:1:-2])
 
 #dictionaries in python
-#Dictionary is a collection 
+#Dictionary is a collection  of key-values pairs that is unordered and mutable
+
+student = {
+    "name" : "Bhargavi" , 
+    "age" :00 ,
+    "course" : "Python"
+    } 
+print(student)
+
+#access elements in dic
+print(student["name"])
+print(student["age"])
+print(student["course"])
+
+#change values in a dictionary
+student["age"] = 11
+print(student["age"])
+
+#add new data to a dictionary
+student["city"] = "Vijayawada"
+print(student)
+
+#remove data
+#when we use pop method removes last inserted method in the list
+student.pop("city")
+print(student)
+
+#Dictionary
+student = {
+    "name": "Bhargavi",
+    "age" : 21 ,
+    "course" : "Python"
+}
+
+print(student.keys())
+#keys() returns all the keys in the dictionary
+
+print(student.values())
+#values returns all the values in the dictionary
+
+print(student.items())
+#items() returns the values in the dictionary
+
+print(student.get("name"))
+#get() returns the value of the specified key
+
+student.update({"age" : 22})
+#update() updates the value of the specified key
+
+print(student)
+
+student.pop("age")
+#pop() removes the specified key and its value
+
+print(student)
+
+#popitem() removes the last inserted key-value pair 
+student = {
+    "name":"Bhargavi",
+    "age" :21,
+    "course" : "Python"
+}
+student.popitem()
+print(student)
+
+student = {
+    "name" : "Bhargavi"
+}
+student.setdefault("age",21)
+print(student)
+
+#clear method
+student.clear()
+print(student)
+
+#copy method
+student = {
+    "name" : "Bhargavi",
+    "age" : 21
+}
+new_student = student.copy()
+print(new_student)
+
+#order of evaluation(BODMAS)
+Result = 2+13*2
+print(Result)
+
+result = (10 + 5)*2
+print(result)
