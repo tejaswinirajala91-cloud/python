@@ -1,4 +1,4 @@
-#Display Personal Details Using Variables
+     #Display Personal Details Using Variables
 name = input("Enter your name:")
 age = int(input("Enter your age:"))
 height = float(input("Enter your height:"))
@@ -8,7 +8,7 @@ print(height)
 
 #Personalized Greeting
 name = input("Enter your name:")
-print(F"Hello,(name)!")
+print(F"Hello,{name}!")
 
 #add two numbers read as string
 a = input("Enter the first number:")
@@ -77,7 +77,7 @@ print(n1>0 and n2>0)
 n1 = int(input("Enter n1:"))
 n2 = int(input("Enter n2:"))
 print(n1%2==0 or n2%2==0)
-
+     
 #logical NOT on a condition
 num = int(input("Enter the num:"))
 print(not(num>0))
@@ -92,7 +92,7 @@ print(a)
 #exchange values of two variables
 a = int(input("Enter a:"))
 b = int(input("Enter b:"))
-
+  
 temp = a
 a=b
 b = temp
@@ -143,6 +143,7 @@ tens = num//10
 units = num % 10
 total = tens + units
 print(total)
+
 
 
 
